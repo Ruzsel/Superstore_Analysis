@@ -12,26 +12,29 @@ The analysis includes:
 - Creating bar plots and scatter plots to visualize trends and patterns in the data.
 - Implementing RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
 # Dataset Description
-1. order_id: Unique identifier for each order.
-2. order_date: Date when the order was placed.
-3. ship_date: Date when the order was shipped.
-4. ship_mode: Mode of shipping for the order.
-5. customer_name: Name of the customer placing the order.
-6. segment: Market segment to which the customer belongs.
-7. state: State where the order was placed.
-8. country: Country where the order was placed.
-9. market: Market where the order was made.
-10. region: Region where the order was placed.
-11. product_id: Unique identifier for each product.
-12. category: Category of the product.
-13. sub_category: Sub-category of the product.
-14. product_name: Name of the product.
-15. sales: Sales amount for the order.
-16. quantity: Quantity of products ordered.
-17. discount: Discount applied to the order.
-18. profit: Profit generated from the order.
-19. shipping_cost: Shipping cost for the order.
-20. order_priority: Priority of the order.
-21. year: Year in which the order was placed.
+| Column Name     | Description                                     |
+|-----------------|-------------------------------------------------|
+| order_id        | Unique identifier for each order.               |
+| order_date      | Date when the order was placed.                 |
+| ship_date       | Date when the order was shipped.                |
+| ship_mode       | Mode of shipping for the order.                 |
+| customer_name   | Name of the customer placing the order.         |
+| segment         | Market segment to which the customer belongs.   |
+| state           | State where the order was placed.               |
+| country         | Country where the order was placed.             |
+| market          | Market where the order was made.                |
+| region          | Region where the order was placed.              |
+| product_id      | Unique identifier for each product.             |
+| category        | Category of the product.                        |
+| sub_category    | Sub-category of the product.                    |
+| product_name    | Name of the product.                            |
+| sales           | Sales amount for the order.                     |
+| quantity        | Quantity of products ordered.                   |
+| discount        | Discount applied to the order.                  |
+| profit          | Profit generated from the order.                |
+| shipping_cost   | Shipping cost for the order.                    |
+| order_priority  | Priority of the order.                          |
+| year            | Year in which the order was placed.             |
+
 
 This analysis aims to uncover insights into sales patterns, customer behavior, and overall performance of the superstore.
