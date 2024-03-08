@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 The analysis includes:
 
 - Grouping data using groupby to derive insights.
-- Creating bar plots and line plots to visualize trends and patterns in the data.
+- Creating bar plots and scatter plots to visualize trends and patterns in the data.
 - Implementing RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
 # Dataset Description
 1. order_id: Unique identifier for each order.
