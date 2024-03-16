@@ -40,7 +40,16 @@ The analysis includes:
 This analysis aims to uncover insights into sales patterns, customer behavior, and overall performance of the superstore.
 
 ## Data Analysis
-
+### Data Analysis Table of Contents
+- [Importing Libraries](#importing-libraries)
+- [Total Sales by Subcategory and Product](#total-sales-by-subcategory-and-product)
+- [Total Profit by Subcategory and Product](#total-profit-by-subcategory-and-product)
+- [Quantities by Category and Sub category](#quantities-by-category-and-sub-category)
+- [Shipping Method Analysis](#shipping-method-analysis)
+- [Segment Analysis](#segment-analysis)
+- [Total Profit and Sales by each Year Analysis](#total-profit-and-sales-by-each-year-analysis)
+- [Total Profit and Sales by each Country Analysis](#total-profit-and-sales-by-each-country-analysis)
+- [RFM Analysis](#rfm-analysis)
 ### Importing Libraries
 ```python
 import pandas as pd
