@@ -5,12 +5,17 @@ In this repository, I present an analysis of the "superstore_sales.xlsx" file. T
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from datetime import date
 ```
 The analysis includes:
 
 - Grouping data using groupby to derive insights.
 - Creating bar plots and scatter plots to visualize trends and patterns in the data.
 - Implementing RFM (Recency, Frequency, Monetary) analysis for customer segmentation.
+
+## LinkedIn
+[**Fairuz Mujahid Annabil**](https://www.linkedin.com/in/fairuzmujahidannabil/)
+
 ## Dataset Description
 | Column Name     | Description                                     |
 |-----------------|-------------------------------------------------|
