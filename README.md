@@ -79,6 +79,7 @@ df.groupby(['product_name']).agg({'sales': 'sum', 'quantity': 'sum', 'profit': '
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/d5cf0997-ae1c-4083-b0c7-96cd8a3850ad)
 
+## Total Sales by Subcategory and Product
 Create a variable that displays sales grouped by subcategory, then only display the top 5 from that variable
 ```python
 Subcategory_product_sales = df.groupby('sub_category')['sales'].sum().reset_index()
@@ -119,6 +120,7 @@ plt.show()
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/3a1ada70-0313-42b7-a572-b383fbb4e09b)
 
+## Total Profit by Subcategory and Product
 Calculates the total profit for each subcategory, then selects the top 5 subcategories with the highest profits. Finally, it displays the resulting DataFrame containing the top 5 subcategories by profit.
 ```python
 Subcategory_profit = df.groupby('sub_category')['profit'].sum().reset_index()
@@ -158,12 +160,14 @@ plt.show()
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/0739a8dd-0fcb-42a5-9ec6-347b3e345dcc)
 
+## Quantities by Category and Sub category
 Generates a DataFrame by grouping the original DataFrame 'df' by the 'category' and 'sub_category' columns and then summing up the quantities for each group. Only numeric columns are considered for the summation.
 ```python
 pd.DataFrame(df.groupby(['category', 'sub_category']).sum(numeric_only=True)['quantity'])
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/9d1c7d4e-a805-4cd3-9f95-e30ad26eb74b)
 
+## Shipping Method Analysis
 Utilizes Seaborn to create a FacetGrid plot, where each column represents a different 'ship_mode'. For each column, a histogram is plotted depicting the distribution of categories ('category'). The 'top' parameter in 'plt.subplots_adjust' adjusts the space at the top of the plot to accommodate the main title, which is set to 'Distribution of Categories by Ship Mode'. 
 ```python
 category_name = sns.FacetGrid(df, col='ship_mode')
@@ -196,6 +200,7 @@ plt.show()
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/87a8d679-54f2-4366-9738-7bda999436b4)
 
+## Segment Analysis
 Calculates the total sales for each segment, selects the top 3 segments with the highest sales, and then displays the resulting DataFrame containing the top 3 segments by sales.
 ```python
 segment_sales = df.groupby('segment')['sales'].sum().reset_index()
@@ -234,6 +239,7 @@ plt.show()
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/170c1c72-b3e7-46f9-8334-23f7c570f0b4)
 
+## Total Profit and Sales by each Year Analysis
 Calculates the total profit for each year by grouping the DataFrame 'df' based on the 'year' column and summing up the profits.
 ```python
 profit_by_year = df.groupby('year')['profit'].sum()
@@ -276,6 +282,7 @@ plt.show()
 ```
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/9059fce2-3aaf-4fa9-a144-d481bf7bed0e)
 
+## Total Profit and Sales by each Country Analysis
 Calculates the total profit for each country, then selects the top 10 countries with the highest profit, and finally displays the resulting DataFrame containing the top 10 countries by profit.
 ```python
 profit_by_country = df.groupby('country')['profit'].sum().reset_index()
