@@ -409,7 +409,7 @@ plt.show()
 
 ---
 
-## RFM Analysis
+## 10. RFM Analysis
 
 ```python
 latest_date = df['order_date'].max()
