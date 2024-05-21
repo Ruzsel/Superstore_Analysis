@@ -28,7 +28,7 @@ As a data analyst, I meticulously validated the dataset to ensure data quality a
 7. Correlation between Discount and Profit : Determining if there's a correlation between the amount of discount given and the profit earned. [Click Here](#7-correlation-between-discount-and-profit)
 8. Monthly Profit(Discount Apply) : Viewing profit per month for each year. [Click Here](#8-monthly-profitdiscount-apply)
 9. Average Profit(Discount Apply) per Order : Calculating the average profit obtained from each order without outliers. [Click Here](#9-average-profitdiscount-apply-per-order)
-10. RFM Analysis : Determining customer segmentation based on Recency, Frequency, and Monetary. [Click Here](
+10. RFM Analysis : Determining customer segmentation based on Recency, Frequency, and Monetary. [Click Here](#10-rfm-analysis)
 
 # About the Data
 
