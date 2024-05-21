@@ -29,6 +29,7 @@ As a data analyst, I meticulously validated the dataset to ensure data quality a
 8. Monthly Profit(Discount Apply) : Viewing profit per month for each year. [Click Here](#8-monthly-profitdiscount-apply)
 9. Average Profit(Discount Apply) per Order : Calculating the average profit obtained from each order without outliers. [Click Here](#9-average-profitdiscount-apply-per-order)
 10. RFM Analysis : Determining customer segmentation based on Recency, Frequency, and Monetary. [Click Here](#10-rfm-analysis)
+11. Sales Distribution by Customer Segment : This section provides an overview of the distribution of sales revenue across different customer segments.[Click Here](#11-sales-distribution-by-customer-segment)
 
 # About the Data
 
