@@ -11,7 +11,7 @@ The main objective of this project is to extract actionable insights from the da
 As a data analyst, I meticulously validated the dataset to ensure data quality and integrity. This involved checking for missing values, duplicates, descriptive statistics, and ensuring proper data formats. By leveraging advanced analytical techniques, I aimed to uncover hidden patterns and correlations that could guide strategic decision-making.
 
 # Additional Sections
-- Data Validation: Detail the steps taken to validate the dataset, including checking for missing values, duplicates, descriptive statistics and ensuring proper data formats. [Click Here](
+- Data Validation: Detail the steps taken to validate the dataset, including checking for missing values, duplicates, descriptive statistics and ensuring proper data formats. [Click Here](#import-library)
 - Exploratory Data Analysis (EDA): Provide insights from the initial exploration of the dataset, including summary statistics, distributions, and correlations between variables.
 - Statistical Analysis: Discuss any statistical tests or analyses conducted to validate findings or test hypotheses within the dataset.
 - Visualization: Showcase visualizations created to represent key insights and trends discovered during the analysis process.
