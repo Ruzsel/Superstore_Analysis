@@ -529,3 +529,9 @@ plt.show()
 ```
 
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/b4ee7cf7-9aeb-4ff3-a601-5444b7a3692e)
+
+---
+
+# Findings
+
+## 1. 
