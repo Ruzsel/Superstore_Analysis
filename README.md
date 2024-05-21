@@ -482,3 +482,49 @@ plt.show()
 ```
 
 ![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/8384fad1-4831-49f1-ab33-5c560dc6ca6d)
+
+---
+
+## 11. Sales Distribution by Customer Segment
+This section provides an overview of the distribution of sales revenue across different customer segments.
+
+```python
+sales_by_segment = df.groupby('segment')['sales'].sum().reset_index()
+sales_numeric = sales_by_segment['sales'].copy()
+# format without scientific notation or commas
+sales_by_segment['sales'] = sales_by_segment['sales'].apply(lambda x: f'${x:,.0f}')
+print(sales_by_segment)
+```
+
+### Output : 
+
+| segment      | sales        |
+|--------------|--------------|
+| Consumer     | $6,507,949   |
+| Corporate    | $3,824,698   |
+| Home Office  | $2,309,855   |
+
+```python
+segments = sales_by_segment['segment']
+
+# Color for each segment
+colors = ['green', 'skyblue', 'orange']
+plt.figure(figsize=(10, 7))
+
+# Function to display percentage and absolute values
+def autopct_format(values):
+    def my_format(pct):
+        total = sum(values)
+        val = int(round(pct*total/100.0))
+        return f'{pct:.1f}%\n(${val:,.0f})'
+    return my_format
+
+plt.pie(sales_numeric, labels=segments, autopct=autopct_format(sales_numeric), startangle=140, colors=colors, shadow=True, explode=(0.05, 0, 0))
+plt.title('Sales by Segment', fontsize=16)
+plt.legend(segments, title="Segments", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
+plt.axis('equal')
+
+plt.show()
+```
+
+![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/b4ee7cf7-9aeb-4ff3-a601-5444b7a3692e)
