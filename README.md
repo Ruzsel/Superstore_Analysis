@@ -11,7 +11,7 @@ The main objective of this project is to extract actionable insights from the da
 As a data analyst, I meticulously validated the dataset to ensure data quality and integrity. This involved checking for missing values, duplicates, descriptive statistics, and ensuring proper data formats. By leveraging advanced analytical techniques, I aimed to uncover hidden patterns and correlations that could guide strategic decision-making.
 
 # Additional Sections
-- Data Validation: Detail the steps taken to validate the dataset, including checking for missing values, duplicates, descriptive statistics and ensuring proper data formats.
+- Data Validation: Detail the steps taken to validate the dataset, including checking for missing values, duplicates, descriptive statistics and ensuring proper data formats. [Click Here](
 - Exploratory Data Analysis (EDA): Provide insights from the initial exploration of the dataset, including summary statistics, distributions, and correlations between variables.
 - Statistical Analysis: Discuss any statistical tests or analyses conducted to validate findings or test hypotheses within the dataset.
 - Visualization: Showcase visualizations created to represent key insights and trends discovered during the analysis process.
@@ -73,6 +73,61 @@ As a data analyst, I meticulously validated the dataset to ensure data quality a
 | CA-2011-1510  | 1/2/2011   | 1/6/2011  | Standard Class| Magdelene Morse | Consumer      | Ontario        | Canada    | Canada | Canada     | TEC-OKI-10002750 | Technology     | Machines     | Okidata Inkjet, Wireless                   | 314   | 1        | 0        | 3.12    | 24.10         | Medium         | 2011 |
 | IN-2011-79397 | 1/3/2011   | 1/3/2011  | Same Day      | Kean Nguyen    | Corporate     | New South Wales| Australia | APAC   | Oceania    | OFF-AP-10000304  | Office Supplies| Appliances   | Hoover Microwave, White                    | 276   | 1        | 0.1      | 110.412 | 125.32        | Critical       | 2011 |
 | ID-2011-80230  | 1/3/2011   | 1/9/2011  | Standard Class| Ken Lonsdale    | Consumer      | Auckland       | New Zealand| APAC   | Oceania    | TEC-CO-10004182  | Technology     | Copiers      | Hewlett Wireless Fax, Laser                | 912   | 4        | 0.4      | -319.464| 107.1         | Low            | 2011 |
+
+# Import Library
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import datetime as dt
+from datetime import date
+from scipy.stats import mode
+```
+
+```python
+df = pd.read_excel('superstore_sales.xlsx')
+```
+
+# Data Quality Check
+## Missing Values
+```python
+print(df.isnull().sum())
+```
+
+![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/bb85f82c-569e-47e1-bec6-7e3159fbbef7)
+
+---
+
+## Data type
+```python
+df.dtypes
+```
+
+![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/87dd5ab8-d957-4a97-b7d5-705424223a08)
+
+---
+
+## Descriptive Statistics
+```python
+print(df.describe())
+```
+
+![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/f406bf32-79f7-4f51-9624-33d23a5a90ae)
+
+---
+
+## Duplicate Check
+```python
+duplicate_rows = df.duplicated()
+
+print("Duplicate Rows(True):", duplicate_rows.sum())
+print("Duplicate Rows(False):", (len(duplicate_rows) - duplicate_rows.sum()))
+```
+
+![image](https://github.com/Ruzsel/Superstore_Analysis/assets/150054552/4fcba36b-7a8b-46ca-aa22-e8c69ec6628c)
+
+---
 
 ## 1. Annual Sales and Profit Trend
 
