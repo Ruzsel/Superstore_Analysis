@@ -19,16 +19,16 @@ As a data analyst, I meticulously validated the dataset to ensure data quality a
 - Conclusion: Reflect on the overall analysis process, lessons learned, and the impact of insights on potential business outcomes.
 
 # EDA (Exploratory Data Analysis)
-1. Annual Sales and Profit Trend : Observing the sales and profit trend from year to year.
-2. Sales by Product Category : Identifying the most popular product category. and breakdown top 5 `product_name` from that category
-3. Distribution of Shipping Modes : Observing how shipping modes are distributed.
-4. Income by Country/Region : Identifying which country or region provides the highest income.
-5. Customer Purchase Frequency : Understanding how often customers make purchases.
-6. Order Priority Distribution : Observing how order priorities are distributed.
-7. Correlation between Discount and Profit : Determining if there's a correlation between the amount of discount given and the profit earned.
-8. Monthly Profit(Discount Apply) : Viewing profit per month for each year.
-9. Average Profit(Discount Apply) per Order : Calculating the average profit obtained from each order without outliers.
-10. RFM Analysis : Determining customer segmentation based on Recency, Frequency, and Monetary.
+1. Annual Sales and Profit Trend : Observing the sales and profit trend from year to year. [Click Here](#1-annual-sales-and-profit-trend)
+2. Sales by Product Category : Identifying the most popular product category. and breakdown top 5 `product_name` from that category. [Click Here](#2-sales-by-product-category)
+3. Distribution of Shipping Modes : Observing how shipping modes are distributed. [Click Here](#3-distribution-of-shipping-modes)
+4. Income by Country/Region : Identifying which country or region provides the highest income. [Click Here](#4-income-by-countryregion)
+5. Customer Purchase Frequency : Understanding how often customers make purchases. [Click Here](#5-customer-purchase-frequency)
+6. Order Priority Distribution : Observing how order priorities are distributed. [Click Here](#6-order-priority-distribution)
+7. Correlation between Discount and Profit : Determining if there's a correlation between the amount of discount given and the profit earned. [Click Here](#7-correlation-between-discount-and-profit)
+8. Monthly Profit(Discount Apply) : Viewing profit per month for each year. [Click Here](#8-monthly-profitdiscount-apply)
+9. Average Profit(Discount Apply) per Order : Calculating the average profit obtained from each order without outliers. [Click Here](#9-average-profitdiscount-apply-per-order)
+10. RFM Analysis : Determining customer segmentation based on Recency, Frequency, and Monetary. [Click Here](
 
 # About the Data
 
