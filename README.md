@@ -16,7 +16,7 @@ As a data analyst, I meticulously validated the dataset to ensure data quality a
 - Statistical Analysis: Discuss any statistical tests or analyses conducted to validate findings or test hypotheses within the dataset.
 - Visualization: Showcase visualizations created to represent key insights and trends discovered during the analysis process.
 - Key Findings: Summarize the most significant findings and insights derived from the analysis, highlighting actionable recommendations or areas for further investigation.
-- Conclusion: Reflect on the overall analysis process, lessons learned, and the impact of insights on potential business outcomes.
+- Insight and Business Solution : Reflect on the overall analysis process, lessons learned, and the impact of insights on potential business outcomes. [Click Here](#findings-and-business-solution)
 
 # EDA (Exploratory Data Analysis)
 1. Annual Sales and Profit Trend : Observing the sales and profit trend from year to year. [Click Here](#1-annual-sales-and-profit-trend)
@@ -587,6 +587,320 @@ plt.show()
 
 ---
 
-# Findings
+# Findings and business solution
 
-## 1. 
+## 1. Annual Sales and Profit Trend
+
+Sales Data:
+- 2011: $2,259,451
+- 2012: $2,677,439
+- 2013: $3,405,746
+- 2014: $4,299,866
+
+Profit Data:
+- 2011: $248,941
+- 2012: $307,415
+- 2013: $408,513
+- 2014: $504,166
+
+### CAGR(Compound Annual Growth Rate) Sales
+- CAGR = (Vf / Vi)^(1/n) - 1
+- CAGR = (4,299,866 / 2,259,451)^(1/3) - 1
+- CAGR ≈ (1.902)^(1/3) - 1
+- CAGR ≈ 1.227 - 1
+- CAGR ≈ 0.227
+- CAGR ≈ 22.7%
+
+### CAGR(Compound Annual Growth Rate) Profit
+- CAGR = (Vf / Vi)^(1/n) - 1
+- CAGR = (504,166 / 248,941)^(1/3) - 1
+- CAGR ≈ (2.025)^(1/3) - 1
+- CAGR ≈ 1.259 - 1
+- CAGR ≈ 0.259
+- CAGR ≈ 25.9%
+
+### Summary
+- CAGR Sales (2011-2014): 22.7%
+- CAGR Profit (2011-2014): 25.9%
+
+## Business Solutions
+The analysis of Compound Annual Growth Rate (CAGR) for both sales and profit from 2011 to 2014 indicates significant growth rates. Here are some potential business solutions based on these trends:
+- Sales Growth Strategy : Capitalize on the strong sales growth trend by expanding market reach through targeted marketing campaigns, exploring new customer segments, and enhancing product offerings to meet evolving consumer needs.
+- Risk Management : Although the CAGR demonstrates positive growth, it's essential to assess and mitigate any associated risks. Conduct thorough market analyses, monitor industry trends, and develop contingency plans to address potential challenges such as market saturation, competitive pressures, or economic downturns.
+
+---
+
+## 2. Sales by Product Category
+
+Sales by Product Category:
+- Technology: $4,744,557
+- Furniture: $4,110,874
+- Office Supplies: $3,787,070
+
+TOP 5 Products - Technology:
+1. Canon ImageCLASS 2200 = $62K
+2. Nokia Smart Phone = $72K
+3. Motorola Smartphone = $73K
+4. Cisco Smart Phone = $76K
+5. Apple Smart Phone = $87K
+
+TOP 5 Products - Furniture:
+1. Novimex Executive Leather = $41K
+2. SAFCO Executive Leather = $42K
+3. Harbour Creations Executive = $50K
+4. Office Star Executive = $51K
+5. Hon Executive Leather = $58K
+
+TOP 5 Products - Office Supplies:
+1. Smead Lockers = $29K
+2. Rogers File Cart = $29K
+3. Hoover Stove, Red = $32K
+4. Hoover Stove, White = $33K
+5. Eldon File Cart = $34K
+
+## Business Solutions
+
+### Enhance Marketing for High-Demand Technology Products
+- Increase Advertising Efforts: Launch targeted marketing campaigns emphasizing the latest features and benefits of top-selling technology products like Apple, Cisco, and Motorola smartphones.
+- Bundling Offers: Create attractive bundles combining popular smartphones with accessories (e.g., headphones, cases) to increase the average transaction value.
+- Leverage Social Media and Influencers: Utilize social media platforms and tech influencers to promote these products, capitalizing on the tech-savvy consumer base.
+
+### Expand Product Range in Furniture and Office Supplies
+- Product Diversification: Introduce new products within these categories to meet diverse customer needs. For Furniture, consider adding ergonomic chairs and standing desks. For Office Supplies, explore innovative organizational tools and eco-friendly products.
+- Customer Feedback: Conduct surveys and focus groups to understand customer preferences and gaps in the current product range. Use this feedback to inform new product development.
+- Seasonal Promotions: Run seasonal promotions and discounts on high-performing items like executive leather chairs and file carts to boost sales during peak shopping periods.
+
+### Optimize Inventory and Supply Chain Management
+- Data-Driven Inventory Management: Use sales data to forecast demand accurately and optimize inventory levels, ensuring popular products are always in stock.
+- Supplier Relationships: Strengthen relationships with key suppliers to ensure timely restocking of high-demand items and negotiate better terms for bulk purchases.
+- Supply Chain Efficiency: Implement advanced supply chain technologies to streamline logistics, reduce lead times, and minimize stockouts or overstock situations.
+
+---
+
+## 3. Distribution of Shipping Modes
+
+Distribution of Shipping Modes:
+- Standard Class: 30,775 shipments
+- Second Class: 10,309 shipments
+- Same Day: 2,701 shipments
+- First Class: 7,505 shipments
+
+## Insights
+- Dominance of Standard Class: Most shipments (30,775) use Standard Class, indicating a preference for economical shipping.
+- Limited Use of Same Day Shipping: Same Day shipping is the least utilized mode with only 2,701 shipments, suggesting lower demand or higher costs.
+- Moderate Preference for Premium Shipping: First Class and Second Class shipping have moderate usage (7,505 and 10,309 shipments respectively), indicating a willingness to pay for faster delivery among some customers.
+
+## Business Solutions
+
+### Optimize Standard Class Shipping
+- Negotiate Bulk Contracts: Reduce costs through bulk shipping contracts with logistics providers.
+- Improve Processes: Enhance warehouse and order processing efficiency to speed up Standard Class shipping.
+- Clear Communication: Set clear expectations about Standard Class delivery times to maintain customer satisfaction.
+
+### Promote Faster Shipping Options
+- Incentives: Offer discounts or promotions to encourage upgrades to faster shipping options.
+- Loyalty Integration: Include premium shipping benefits in customer loyalty programs.
+- Marketing Benefits: Highlight the advantages of faster shipping to attract more customers.
+
+### Expand and Market Same Day Shipping
+- Expand Coverage: Increase Same Day shipping availability in more regions, particularly urban areas.
+- Targeted Campaigns: Use marketing to promote the convenience of Same Day shipping for urgent needs.
+- Optimize Costs: Partner with local delivery services and improve route planning to manage costs effectively.
+
+---
+
+## 4. Income by Country/Region
+
+Findings 
+Income by Country/Region
+- United States: $286,397
+- China: $150,683
+- India: $129,072
+- United Kingdom: $111,900
+- France: $109,029
+- Germany: $107,323
+- Australia: $105,485
+- Mexico: $102,818
+- Spain: $54,390
+- El Salvador: $42,023
+
+## Insights
+- Revenue Distribution: The United States leads in income, followed by China and India, reflecting their economic strength and market size.
+- European Presence: European countries like the United Kingdom, France, Germany, and Spain also contribute significantly to income, indicating a strong market presence in the region.
+- Emerging Markets: Countries like India, China, and Mexico represent emerging markets with substantial income contributions, highlighting opportunities for further growth and expansion.
+
+## Business Solutions
+
+### Market Penetration and Expansion
+- Strategic Investments: Allocate resources to penetrate and expand in high-income markets like the United States and Europe.
+- Localized Strategies: Develop localized marketing and product strategies tailored to the preferences and trends of each country or region.
+- Partnerships and Alliances: Form partnerships or alliances with local businesses or distributors to enhance market penetration and brand visibility.
+
+### Focus on Emerging Markets
+- Market Research: Conduct in-depth market research to understand the dynamics and opportunities in emerging markets like India, China, and Mexico.
+- Adaptation: Adapt products, pricing, and distribution strategies to suit the unique needs and preferences of consumers in these markets.
+- Investment in Infrastructure: Invest in building distribution networks and infrastructure to support operations and sales growth in emerging markets.
+
+---
+
+## 5. Customer Purchase Frequency
+
+Findings Customer Purchase Frequency
+- Median: 64
+- Q1 (First Quartile): 55
+- Q3 (Third Quartile): 74
+- Mode: 68
+
+## Insights
+- Central Tendency: The median purchase frequency of 64 suggests that half of the customers make purchases more frequently than this value, while the other half makes purchases less frequently.
+- Variability: The interquartile range (Q3-Q1) of 19 indicates the spread of purchase frequency values between the 25th and 75th percentiles, showing moderate variability.
+- Common Frequency: The mode of 68 indicates that the most common purchase frequency among customers is 68, implying a concentration of customers around this value.
+
+## Business Solutions
+
+### Personalized Marketing Campaigns
+- Segmentation: Segment customers based on their purchase frequency to tailor marketing campaigns according to their buying habits.
+- Targeted Offers: Offer special promotions or discounts to incentivize customers whose purchase frequency falls below the median to increase their frequency.
+- Retention Strategies: Implement customer retention strategies to encourage frequent buyers to maintain their purchasing habits and prevent attrition.
+
+### Feedback and Engagement
+- Customer Feedback: Solicit feedback from customers to understand factors influencing their purchase frequency and preferences.
+- Engagement Initiatives: Engage customers through loyalty programs, interactive content, or community-building activities to foster brand loyalty and encourage repeat purchases.
+- Continuous Monitoring: Continuously monitor customer purchase behavior and adapt strategies accordingly to maintain optimal purchase frequency levels and drive long-term customer satisfaction and loyalty.
+
+---
+
+## 6.  Order Priority Distribution
+
+Findings Order Priority Distribution
+- Medium: 29,433
+- High: 15,501
+- Critical: 3,932
+- Low: 2,424
+
+## Insights
+- Priority Levels: Orders are distributed across multiple priority levels, ranging from Low to Critical, indicating varying degrees of urgency and importance.
+- Prevalence of Medium Priority: Medium priority orders constitute the majority, suggesting that a significant portion of orders requires prompt attention but may not be urgent.
+- Critical Orders: While Critical orders have the lowest count, their presence highlights the importance of addressing urgent customer needs promptly.
+
+## Business Solutions
+
+### Workflow Optimization
+- Priority-Based Workflow: Implement priority-based workflow systems to streamline order processing, ensuring that higher priority orders are expedited while maintaining efficiency for lower priority orders.
+- Automation: Utilize automation technologies to prioritize and route orders based on their priority level, reducing manual processing time and enhancing accuracy.
+
+### Customer Communication
+- Transparency: Communicate order priority status clearly to customers, setting realistic expectations for delivery times and response times based on the order priority.
+- Proactive Notifications: Implement proactive notification systems to update customers on the status of their orders, particularly for Critical orders, to provide reassurance and maintain customer satisfaction.
+
+---
+
+## 7. Correlation between Discount and Profit
+Correlation between Discount and Profit
+- Correlation Coefficient: -0.32
+
+## Insights
+- Negative Correlation: The correlation coefficient of -0.32 indicates a negative correlation between discount and profit. This suggests that as the discount increases, the profit tends to decrease, and vice versa.
+- Directional Relationship: The negative correlation implies an inverse relationship between discount and profit. This means that offering higher discounts may lead to lower profits, while reducing discounts or increasing prices may result in higher profits.
+
+## Business Solutions
+
+### Targeted Discounting
+- Segmentation: Segment customers based on purchasing behavior, preferences, and price sensitivity to offer targeted discounts to high-value customers while minimizing discounts for low-margin segments.
+- Promotional Bundles: Offer discounts as part of bundled promotions or loyalty programs to incentivize additional purchases and mitigate the impact of individual discounting on profit margins.
+
+--- 
+
+## 8. Monthly Profit(Discount Apply)
+
+Year 2011:
+- January: $8.3K
+- June: $23.4K
+- July: $5.6K
+- September: $35.8K
+- December: $40.6K
+
+Year 2012:
+- January: $10.4K
+- June: $34.4K
+- July: $15.6K
+- August: $43.6K
+- December: $33K
+
+Year 2013:
+- January: $26.8K
+- June: $45.5K
+- July: $28.9K
+- December: $50.2K
+
+Year 2014:
+- January: $28K
+- June: $43.8K
+- July: $28K
+- September: $68K
+- December: $46.9K
+
+## Insights
+- Seasonal Variations: Profit fluctuates throughout the year, with certain months experiencing higher peaks and others lower troughs across all years.
+- Trend Analysis: Overall, there is an upward trend in profit over the years, despite fluctuations in individual months.
+- Yearly Patterns: Each year exhibits similar patterns of profit fluctuations, with some months consistently performing better than others.
+
+## Business Solutions
+
+### Seasonal Promotions
+- Targeted Campaigns: Launch seasonal promotions and marketing campaigns during peak months to capitalize on increased consumer spending and maximize profitability.
+- Inventory Management: Anticipate demand fluctuations and adjust inventory levels accordingly to ensure sufficient stock during peak periods while minimizing excess inventory during slower months.
+
+### Cost Optimization
+- Expense Review: Conduct a comprehensive review of expenses and identify opportunities for cost optimization to maintain profitability during slower months.
+- Supplier Negotiations: Negotiate favorable terms with suppliers to reduce procurement costs and improve margins, especially during periods of lower profitability.
+
+---
+
+## 9. Average Profit(Discount Apply) per Order
+- Count: 20,500 orders
+- Mean: $32 (rounded)
+- Standard Deviation: $63 (rounded)
+- Minimum: -$134
+- 25th Percentile (Q1): $2
+- Median (50th Percentile): $17
+- 75th Percentile (Q3): $59
+- Maximum: $223
+
+## Insights
+- Average Profit: The average profit per order, considering discounts, is approximately $32.
+- Variability: The standard deviation of approximately $63 suggests a considerable variation in profit values around the mean.
+- Distribution: The data is positively skewed, with outliers on the higher end of the profit spectrum.
+
+## Business Solutions
+
+### Profitability Analysis
+- Segment Analysis: Utilize data analytics to identify high-profit customer segments or product categories and allocate resources accordingly.
+- Product Mix Optimization: Analyze profitability data to optimize the product mix, focusing on high-margin products to increase overall profitability.
+### Cost Management
+- Cost Reduction Strategies: Implement cost reduction strategies based on data-driven insights, such as streamlining operations and negotiating supplier contracts to improve profit margins.
+
+---
+
+## 10. Sales Distribution by Customer Segment
+- Consumer: $6,507,949
+- Corporate: $3,824,698
+- Home Office: $2,309,855
+
+## Insights
+- Consumer Segment Dominance: Consumer segment accounts for the highest sales volume, indicating a significant portion of revenue comes from individual customers.
+- Corporate Segment Contribution: Corporate segment contributes substantially to sales, suggesting strong business-to-business sales performance.
+- Home Office Segment: While the Home Office segment contributes the least to sales, it still represents a notable portion of revenue, highlighting the importance of catering to small office and home office customers.
+
+## Business Solutions
+
+### Targeted Marketing Strategies
+- Segment-Specific Campaigns: Develop targeted marketing campaigns tailored to each customer segment to effectively communicate product value propositions and enhance sales performance.
+- Personalization: Utilize customer data to personalize marketing messages and offers for each segment, increasing relevance and engagement.
+
+### Product Assortment Optimization
+- Segment-Specific Products: Optimize product assortment to meet the unique needs and preferences of each customer segment, ensuring a diverse range of offerings tailored to different customer demographics.
+- Product Bundling: Create bundled product packages tailored to each segment's preferences to encourage higher order values and enhance customer satisfaction.
+
+---
+
