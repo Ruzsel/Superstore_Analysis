@@ -1,4 +1,4 @@
-# Project Overview
+# Superstore Analysis
 this project revolves around exploring and analyzing a dataset to derive meaningful insights and inform decision-making. The primary focus is on understanding the data, performing various analyses, and visualizing the findings to communicate key observations effectively.
 
 # About this Project
