@@ -2,7 +2,7 @@
 this project revolves around exploring and analyzing a dataset to derive meaningful insights and inform decision-making. The primary focus is on understanding the data, performing various analyses, and visualizing the findings to communicate key observations effectively.
 
 # About this Project
-The project centers on a comprehensive analysis of a dataset encompassing various aspects such as sales, customer information, product details, and market segments. Key tasks undertaken include data validation, exploratory data analysis (EDA), statistical analysis, and visualization of trends and patterns within the dataset.
+The project centers on a comprehensive analysis of a dataset encompassing various aspects such as sales, customer information, product details, and market segments. Key tasks undertaken include data quality check, exploratory data analysis (EDA), statistical analysis, and visualization of trends and patterns within the dataset.
 
 # Objective
 The main objective of this project is to extract actionable insights from the dataset to drive business decisions and strategies. Through rigorous analysis and visualization, the aim is to uncover trends, identify opportunities, and address challenges within the data.
